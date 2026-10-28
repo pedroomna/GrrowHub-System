@@ -1,0 +1,14 @@
+/* Em mobile, o cartão de acesso já exibe a marca completa; evite uma segunda cópia sobre a foto. */
+@media (max-width: 760px) {
+  .auth-story .auth-brand-lockup {
+    display: none;
+  }
+
+  .auth-story {
+    justify-content: flex-start;
+  }
+
+  .auth-story-copy {
+    padding-top: 28px;
+  }
+}

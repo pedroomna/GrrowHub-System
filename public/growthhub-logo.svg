@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 420" role="img" aria-labelledby="title desc">
+  <title id="title">GrowthHub</title>
+  <desc id="desc">GrowthHub — Pequenos passos, Grandes Transformações</desc>
+  <g fill="#102239">
+    <path d="M354 52a176 176 0 1 0 24 228c-35 52-92 84-153 84C121 364 37 280 37 176S121-12 225-12c42 0 82 14 115 39l14 25Z" transform="translate(0 30)"/>
+    <circle cx="191" cy="144" r="32"/>
+    <path d="M99 246c36-9 84-12 126-20 43-9 81-24 111-51l53-49-18-23 92-31-14 96-21-20-64 61c-39 37-83 57-135 67-41 8-78 18-104 38l-43 34c-15 12-38 8-48-8-9-15-4-35 12-45l53-33Z"/>
+    <path d="M142 289c33 8 56 35 56 70 0 25-11 48-31 63-27 20-65 16-86-9l-16-19 77-105Z"/>
+    <path d="m273 345 83-36-66 82c-36 45-100 57-150 27l-28-17 161-56Z"/>
+  </g>
+  <text x="505" y="252" fill="#102239" font-family="Inter, Arial, Helvetica, sans-serif" font-size="218" font-weight="750" letter-spacing="-11">GrowthHub</text>
+  <text x="520" y="342" fill="#102239" font-family="Inter, Arial, Helvetica, sans-serif" font-size="57" font-weight="400" letter-spacing=".2">Pequenos passos, Grandes Transformações</text>
+</svg>

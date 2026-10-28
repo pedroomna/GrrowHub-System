@@ -1,0 +1,167 @@
+/* Ritmo de espaçamento consistente entre as páginas do painel. */
+.dashboard-main .content {
+  width: min(100%, 1440px);
+  padding: 38px clamp(24px, 4vw, 54px) 64px;
+}
+.dashboard-main .page-title {
+  align-items: center;
+  gap: 24px;
+  margin: 0 0 28px;
+}
+.dashboard-main .page-title > div:first-child {
+  min-width: 0;
+}
+.dashboard-main .page-title p {
+  max-width: 620px;
+  margin-top: 8px;
+  line-height: 1.6;
+}
+.dashboard-main .hero-grid,
+.dashboard-main .cards-3,
+.dashboard-main .goal-grid,
+.dashboard-main .habit-grid,
+.dashboard-main .two-col {
+  gap: 18px;
+}
+.dashboard-main .panel {
+  padding: 22px 24px;
+  margin-bottom: 20px;
+}
+.dashboard-main .panel-head {
+  gap: 18px;
+  margin-bottom: 18px;
+}
+.dashboard-main .goal-card,
+.dashboard-main .habit-card {
+  padding: 18px;
+}
+.dashboard-main .reflection {
+  padding: 24px;
+}
+.dashboard-main .reflection textarea {
+  min-height: 260px;
+  padding: 16px;
+  line-height: 1.7;
+}
+.dashboard-main .profile-session {
+  gap: 20px;
+  padding: 20px 22px;
+}
+
+/* Formulários e diálogos: ações alinhadas, com respiro e sem botões empilhados. */
+.crud-form {
+  gap: 17px;
+}
+.crud-form > label,
+.crud-form .form-grid label {
+  gap: 8px;
+  line-height: 1.4;
+}
+.crud-form input:not([type="range"]),
+.crud-form select {
+  height: 45px;
+  padding-inline: 12px;
+}
+.crud-form .form-actions,
+.modal-card .form-actions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 4px;
+  padding-top: 15px;
+}
+.crud-form .form-actions > button,
+.modal-card .form-actions > button {
+  width: auto;
+  min-width: 104px;
+  min-height: 40px;
+  flex: 0 0 auto;
+}
+.modal-card {
+  width: min(520px, calc(100vw - 32px));
+  padding: 24px;
+}
+.modal-head {
+  margin-bottom: 22px;
+}
+.modal-card .form-grid {
+  gap: 14px;
+}
+
+@media (max-width: 1000px) {
+  .dashboard-main .content {
+    padding: 32px 28px 56px;
+  }
+  .dashboard-main .panel {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 760px) {
+  .dashboard-main .content {
+    padding: 26px 16px 36px;
+  }
+  .dashboard-main .page-title {
+    align-items: flex-start;
+    gap: 14px;
+    margin-bottom: 22px;
+  }
+  .dashboard-main .hero-grid,
+  .dashboard-main .cards-3,
+  .dashboard-main .goal-grid,
+  .dashboard-main .habit-grid,
+  .dashboard-main .two-col {
+    gap: 12px;
+  }
+  .dashboard-main .panel {
+    padding: 17px;
+    margin-bottom: 14px;
+  }
+  .dashboard-main .panel-head {
+    gap: 12px;
+    margin-bottom: 15px;
+  }
+  .dashboard-main .reflection {
+    padding: 17px;
+  }
+  .dashboard-main .reflection textarea {
+    min-height: 220px;
+    padding: 12px;
+  }
+  .modal-backdrop {
+    align-items: center;
+    padding: 16px;
+  }
+  .modal-card {
+    width: min(100%, 520px);
+    max-height: calc(100dvh - 32px);
+    padding: 20px;
+  }
+  .modal-head {
+    margin-bottom: 18px;
+  }
+  .crud-form {
+    gap: 15px;
+  }
+  .crud-form .form-actions,
+  .modal-card .form-actions {
+    gap: 9px;
+  }
+}
+
+@media (max-width: 420px) {
+  .dashboard-main .content {
+    padding-inline: 13px;
+  }
+  .modal-card {
+    padding: 17px;
+  }
+  .crud-form .form-actions > button,
+  .modal-card .form-actions > button {
+    min-width: 0;
+    flex: 1 1 auto;
+  }
+}

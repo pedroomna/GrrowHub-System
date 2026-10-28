@@ -1,0 +1,11 @@
+.auth-story {
+  background-image: url("https://images.pexels.com/photos/6146971/pexels-photo-6146971.jpeg?auto=compress&cs=tinysrgb&w=1800");
+  background-position: center 44%;
+  background-size: cover;
+}
+
+@media (max-width: 760px) {
+  .auth-story {
+    background-position: center 44%;
+  }
+}

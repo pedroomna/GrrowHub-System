@@ -1,0 +1,5 @@
+/* A regra global `main` reserva espaço para a barra lateral do dashboard. */
+.auth-screen {
+  width: 100%;
+  margin-left: 0;
+}
